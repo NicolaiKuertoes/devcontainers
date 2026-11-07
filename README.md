@@ -6,7 +6,7 @@ A collection of lightweight, reusable development container images for consisten
 
 | Environment | Description | Image |
 |---|---|---|
-| Typst | Typst compiler and Tinymist language server | `ghcr.io/NicolaiKuertoes/typst:latest` |
+| Typst | Typst compiler and Tinymist language server | `ghcr.io/nicolaikuertoes/typst:latest` |
 
 ## Usage
 
@@ -15,7 +15,7 @@ Add a `.devcontainer/devcontainer.json` file to your project:
 ```json
 {
   "name": "Typst",
-  "image": "ghcr.io/NicolaiKuertoes/typst:latest",
+  "image": "ghcr.io/nicolaikuertoes/typst:latest",
   "customizations": {
     "vscode": {
       "extensions": [
